@@ -1,0 +1,20 @@
+{
+  "name": "ecmascript-course",
+  "version": "1.0.0",
+  "description": "Repository created in order to write the features from ES6 until today.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ButchBet/ECMAScript-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ButchBet/ECMAScript-course/issues"
+  },
+  "homepage": "https://github.com/ButchBet/ECMAScript-course#readme"
+}
