@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/ButchBet/ECMAScript-course/issues"
   },
-  "homepage": "https://github.com/ButchBet/ECMAScript-course#readme"
+  "homepage": "https://github.com/ButchBet/ECMAScript-course#readme",
+  "type": "module"
 }
