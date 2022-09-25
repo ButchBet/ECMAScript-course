@@ -24,3 +24,8 @@ console.log(dogName);
 
 console.log(adventurer.someNonExistentMethod?.());
 // expected output: undefined
+
+// Syntax
+obj.val?.prop
+obj.val?.[expr]
+obj.func?.(args)
