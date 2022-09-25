@@ -30,12 +30,11 @@ regexp.hasIndices // check if the flag d is active
 // Methods
 // test(str)Check if the regular expression matchs with the text str
 let test; 
-(test = regexp.test('2002-06-08')) ? true : false; 
-// true
+(test = regexp.test('2002-06-08')) ? true : false;// true
 
 (test = regexp.test('Hello')) ? true : false; // false
 
-// exec(str) execute a pathers search in the text str, it returs an array with the catches
+// exec(str) execute a pather search in the text str, it returs an array with the catches
 const exec = regexp.exec('2002-06-08');
 console.table(exec);
 /*
@@ -68,7 +67,7 @@ Keep in mind that the one returned by .exec() is a special array that, apart fro
 2. .groups: Create an object with the results of named parentheses
 3. .index: Position of where the occurrence was found.
 4. .input: Original text passed as parameter to .exec().
-5. indices: 	Si se usa el flag d, se incluye un  con las posiciones inicial y final de las coincidencias del .
+5. indices: If the d flag is used, a with the start and end positions of the matches is included.
 */
 
 // Named Parentization
@@ -193,7 +192,7 @@ There is something important that we have omitted so far. Within regular express
 
 1. ^: Defines the beginning of the pattern. It means start with.
 2. $: Defines the end of the pattern. It means ends in.
-3. \b: Limit one word separated by spaces, punctuation, or start/end.
+3. \b: Limits one word separated by spaces, punctuation, or start/end.
 4. \B: Opposite of previous. Position between 2 alphanumeric or non-alphanumeric characters.
 */
 
